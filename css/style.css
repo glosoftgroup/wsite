@@ -1,8 +1,8 @@
 /*=== MEDIA QUERY ===*/
 
-/** {*/
-  /*border: 2px solid red;*/
-/*}*/
+/* * {
+  border: 2px solid red;
+} */
 
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Open+Sans:400,400i,700");
 body {
@@ -154,9 +154,24 @@ a:focus, a:hover {
   text-decoration: none;
 }
 
+.row_height{
+  height: 550px;
+}
+
+.imac{
+  width: 540px;
+  height: 510px;
+}
+
+.badge_spec{
+  position: absolute;
+  bottom: 0px;
+}
+
 .bg-1 {
-  background: url(../images/backgrounds/rotated/9.png) no-repeat;
+  background: url(../images/backgrounds/rotated/5.png) no-repeat;
   background-size: cover;
+  min-height: 750px;
 }
 
 .bg-2 {
@@ -897,7 +912,7 @@ a:focus, a:hover {
 }
 
 .banner {
-  padding: 170px 0 145px;
+  padding: 170px 0 5px;
 }
 
 .banner .content-block.ml-50 {
@@ -917,7 +932,7 @@ a:focus, a:hover {
 }
 
 .banner .content-block h1, .banner .content-block h5 {
-  color: #fff;
+  color: #000;
 }
 
 .banner .content-block h1 {
@@ -1569,10 +1584,10 @@ a:focus, a:hover {
   display: flex;
 }
 
-@media (max-width: 768px) {
-  .featured-article article.featured {
+@media (max-width: 768px) {ed {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  .featured-article article.featur
   }
 }
 
