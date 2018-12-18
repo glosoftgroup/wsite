@@ -141,7 +141,7 @@ ul.rating li {
 
 .overlay:before {
   content: '';
-  background: rgba(125, 113, 211, 0.9);
+  background: rgba(100, 170, 255, 0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -150,7 +150,7 @@ ul.rating li {
 }
 
 a:focus, a:hover {
-  color: #7d71d3;
+  color: #64aaff;
   text-decoration: none;
 }
 
@@ -163,15 +163,68 @@ a:focus, a:hover {
   height: 510px;
 }
 
+.imac_mid{
+  margin-top: 60px;
+}
+
+.pd-l-r{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .badge_spec{
   position: absolute;
   bottom: 0px;
 }
 
+.about-item{
+  border-radius: 5px;
+}
+
+.imac_download{
+  margin-top: 130px;
+}
+
+.handshake{
+  width: 400px;
+  height: 300px;
+  padding-left: 40px;
+}
+
+.icon-spec{
+  width: 30px;
+  height: 30px;
+}
+
+.form_btn {
+  padding: 10px 50px;
+  margin: 40px 0px 0px 20px;
+  border: none;
+  background: #64aaff;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact-row{
+  display: flex;
+  padding: 10px 5px;
+}
+
+.left-col{
+  flex: 35%;
+  padding-left: 130px;
+}
+
+.right-col{
+  flex: 65%;
+  padding-top: 5px;
+}
+
 .bg-1 {
   background: url(../images/backgrounds/rotated/5.png) no-repeat;
   background-size: cover;
-  min-height: 750px;
+  min-height: 800px;
 }
 
 .bg-2 {
@@ -225,7 +278,7 @@ a:focus, a:hover {
 }
 
 .bg-blue {
-  background: #7d71d3;
+  background:#64aaff;
 }
 
 .bg-coming-soon {
@@ -235,19 +288,19 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0px 30px 0px;
 }
 
 .section-title {
   text-align: center;
-  margin-bottom: 85px;
+  margin-bottom: 30px;
 }
 
 .section-title h2 {
   font-size: 48px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 300;
 }
 
@@ -261,6 +314,10 @@ a:focus, a:hover {
 @media (max-width: 480px) {
   .section-title p {
     width: 100%;
+  }
+
+  .imac_mid{
+    margin-top: 10px;
   }
 }
 
@@ -324,7 +381,7 @@ a:focus, a:hover {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  background: rgba(125, 113, 211, 0.7);
+  background: rgba(100, 170, 255, 0.7);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -339,7 +396,7 @@ a:focus, a:hover {
   height: 130px;
   width: 130px;
   border-radius: 100%;
-  background: rgba(125, 113, 211, 0.5);
+  background: rgba(100, 170, 255, 0.5);
 }
 
 .video .video-box a .icon i {
@@ -353,7 +410,7 @@ a:focus, a:hover {
   height: 70px;
   width: 70px;
   font-size: 35px;
-  background: #7d71d3;
+  background: #64aaff;
   border-radius: 100%;
   color: #fff;
   line-height: 70px;
@@ -366,11 +423,13 @@ a:focus, a:hover {
 }
 
 .form-control.main {
-  background: #fff;
+  /* background: #64aaff; */
+  color: #000;
   padding: 20px 20px;
+  margin: 20px;
   border: none;
+  border-bottom: 1px solid #64aaff;
   font-size: 14px;
-  border-radius: 4px;
 }
 
 .input-group {
@@ -381,7 +440,7 @@ a:focus, a:hover {
 .input-group .input-group-addon {
   padding-left: 35px;
   padding-right: 35px;
-  background: #7d71d3;
+  background: #64aaff;
   color: #fff;
   cursor: pointer;
 }
@@ -442,7 +501,7 @@ a:focus, a:hover {
   padding: 20px 35px;
   font-size: 14px;
   background: #fff;
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .btn-download span {
@@ -453,7 +512,7 @@ a:focus, a:hover {
 .btn-main {
   padding: 25px 45px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #64aaff;
   color: #fff;
   outline: none;
 }
@@ -469,7 +528,7 @@ a:focus, a:hover {
 
 .btn-main-rounded {
   letter-spacing: .075em;
-  background: #7d71d3;
+  background: #64aaff;
   color: #fff;
   text-transform: uppercase;
   padding: 15px 40px;
@@ -483,7 +542,7 @@ a:focus, a:hover {
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #64aaff;
   color: #fff;
   outline: none;
 }
@@ -500,7 +559,7 @@ a:focus, a:hover {
 .btn-main-sm {
   padding: 15px 35px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #64aaff;
   color: #fff;
   outline: none;
   font-size: 14px;
@@ -517,7 +576,7 @@ a:focus, a:hover {
 
 .btn-white {
   background: white;
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .btn-rounded-icon {
@@ -582,8 +641,8 @@ a:focus, a:hover {
 }
 
 .footer-main {
-  padding: 50px 0;
-  background: #7d71d3;
+  padding: 20px 0px 0px 0px;
+  background: #64aaff;
 }
 
 @media (max-width: 768px) {
@@ -702,7 +761,7 @@ a:focus, a:hover {
 }
 
 .cta-subscribe .content .subscription-tag p {
-  color: #7d71d3;
+  color: #64aaff;
   letter-spacing: .1em;
 }
 
@@ -866,7 +925,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .testimonial-item .content .pos-in-com span {
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .testimonial-slider .testimonial-item .content .speech {
@@ -904,7 +963,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .slick-prev:hover:before, .testimonial-slider .slick-next:hover:before {
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .testimonial-slider .slick-prev:before, .testimonial-slider .slick-next:before {
@@ -977,7 +1036,7 @@ a:focus, a:hover {
 }
 
 .about .about-block .about-item.active {
-  background: #7d71d3;
+  background: #64aaff;
 }
 
 .about .about-block .about-item.active .icon i {
@@ -994,7 +1053,7 @@ a:focus, a:hover {
 
 .about .about-block .about-item .icon i {
   font-size: 48px;
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .about .about-block .about-item .content {
@@ -1017,7 +1076,7 @@ a:focus, a:hover {
 
 .feature .feature-item .icon i {
   font-size: 48px;
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .feature .feature-item .content h5 {
@@ -1061,7 +1120,7 @@ a:focus, a:hover {
 }
 
 .screenshots .screenshot-slider .slick-dots li button {
-  border: 4px solid #7d71d3;
+  border: 4px solid #64aaff;
   border-radius: 100%;
 }
 
@@ -1070,7 +1129,7 @@ a:focus, a:hover {
 }
 
 .screenshots .screenshot-slider .slick-dots li.slick-active button {
-  background: #7d71d3;
+  background: #64aaff;
 }
 
 .pricing-table {
@@ -1104,7 +1163,7 @@ a:focus, a:hover {
 .pricing-table .price p {
   font-size: 36px;
   font-weight: bold;
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .pricing-table .price p span {
@@ -1153,7 +1212,7 @@ a:focus, a:hover {
 
 .counter .counter-item {
   text-align: center;
-  background: #7d71d3;
+  background: #64aaff;
   padding: 40px 0;
   border-radius: 8px;
 }
@@ -1219,7 +1278,7 @@ a:focus, a:hover {
 
 .team-member .skill-bar .progress .progress-bar {
   width: 0;
-  background: #7d71d3;
+  background: #64aaff;
 }
 
 .team-member .skill-bar span {
@@ -1291,7 +1350,7 @@ a:focus, a:hover {
 
 .services .service-block i {
   font-size: 30px;
-  color: #7d71d3;
+  color: #64aaff;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -1350,7 +1409,7 @@ a:focus, a:hover {
 
 .service .service-box .service-item i {
   font-size: 20px;
-  color: #7d71d3;
+  color: #64aaff;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -1473,7 +1532,7 @@ a:focus, a:hover {
 .video-promo .content-block a i.video {
   height: 125px;
   width: 125px;
-  background: #7d71d3;
+  background: #64aaff;
   display: inline-block;
   font-size: 40px;
   color: #fff;
@@ -1527,7 +1586,7 @@ a:focus, a:hover {
 
 .team-sm .image .social-links {
   position: absolute;
-  background: #7d71d3;
+  background: #64aaff;
   left: 0;
   right: 0;
   text-align: center;
@@ -1633,7 +1692,7 @@ a:focus, a:hover {
 }
 
 .featured-article article.featured .content h2 a:hover {
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .featured-article article.featured .content p {
@@ -1697,11 +1756,11 @@ a:focus, a:hover {
 }
 
 .post-sm .post-content .excerpts a:hover {
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .post-sm .post-content .excerpts a:hover span {
-  color: #7d71d3;
+  color: #64aaff;
 }
 
 .blog-single .single-post {
@@ -1847,13 +1906,13 @@ a:focus, a:hover {
 }
 
 .pagination-nav ul.pagination li a:hover {
-  background-color: #7d71d3;
+  background-color: #64aaff;
   color: #fff;
   border-color: transparent;
 }
 
 .pagination-nav ul.pagination .active a {
-  background-color: #7d71d3;
+  background-color: #64aaff;
   color: #fff;
   border-color: transparent;
 }
@@ -1874,11 +1933,11 @@ a:focus, a:hover {
 }
 
 .about .about-slider .owl-dots .owl-dot:hover span {
-  background: #7d71d3;
+  background: #64aaff;
 }
 
 .about .about-slider .owl-dots .owl-dot.active span {
-  background: #7d71d3;
+  background: #64aaff;
 }
 
 .create-stories .block img {
