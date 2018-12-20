@@ -164,6 +164,10 @@ ul.rating li {
     visibility: visible;
 }
 
+.icon-chevron-up {
+  font-size: 18px;
+}
+
 .shadow, .about .about-block .about-item, .screenshots .screenshot-slider .image img, .counter .counter-item, .team-member, .service .service-box, .founder img, .team-sm .image img, .post-sm, .job-list .block, .privacy .block, .user-login .block .image img, .coming-soon .block .count-down .syotimer-cell {
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -274,6 +278,13 @@ img.download {
 
 a.nav-link.scrollTo:hover {
   border-bottom: 3px solid #ff698d;
+}
+
+ul.nav-link li.active a {
+    color: #FFF;
+    background-color: #1B81DD;
+    padding: 25px 18px;
+    border-bottom: 3px solid #ff698d;
 }
 
 /* img.image-fluid {
