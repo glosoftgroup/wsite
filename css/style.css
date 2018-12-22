@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h3 {
@@ -245,6 +245,55 @@ a.nav-link.scrollTo:hover {
   border-bottom: 3px solid #ff698d;
 }
 
+.about-01 .about-item .content {
+  width: 400px;
+}
+
+/* div.test.size-spec.icon {
+  margin: 0px;
+} */
+
+.about-01 .about-item .content a{
+  width: 400px;
+}
+/* .size-spec {
+  line-height: 40px;
+  text-align: center;
+} */
+
+.test {
+  line-height: 30px;
+}
+
+.up {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.download-icons {
+  width: 110px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.test.size-spec .download-icons {
+  float: left;
+}
+
+.about .about-item .content .test a {
+  color: #000;
+}
+
+.about .about-item .content .test a:hover {
+  color: #64aaff;
+}
+
+/* .size-spec .tf-hourglass,.size-spec .tf-ion-ios-paper-outline {
+  font-size: 26px !important;
+} */
+
 /* img.image-fluid {
   height: 700px;
 } */
@@ -315,7 +364,7 @@ a.nav-link.scrollTo:hover {
 }
 
 .section {
-  padding: 50px 0px 30px 0px;
+  padding:100px 0px 30px 0px;
 }
 
 .section-title {
@@ -689,7 +738,6 @@ a.nav-link.scrollTo:hover {
 
 .footer-main .copyright a {
   color: #fff;
-  font-weight: 600;
   transition: all .2s ease;
 }
 
@@ -1084,8 +1132,14 @@ a.nav-link.scrollTo:hover {
   color: #64aaff;
 }
 
+.about .about-block .about-item i.icon {
+  font-size: 18px;
+  color: #64aaff;
+}
+
 .about .about-block .about-item .content {
   margin-left: 30px;
+  width: 400px;
 }
 
 .about .about-block .about-item .content h5 {
