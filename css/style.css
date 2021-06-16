@@ -133,6 +133,41 @@ ul.rating li {
   font-size: 26px;
 }
 
+.scrollTop {
+    position: fixed;
+    bottom: 42px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: #AF0808;
+    font-size: 25px;
+    color: #fff;
+    z-index: 111;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border: 2px solid transparent;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+}
+
+.scrollTop:hover {
+    background-color: transparent;
+    border: 2px solid #AF0808;
+    color: #AF0808;
+}
+
+.scroll-active {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+}
+
+.icon-chevron-up {
+  font-size: 18px;
+}
+
 .shadow, .about .about-block .about-item, .screenshots .screenshot-slider .image img, .counter .counter-item, .team-member, .service .service-box, .founder img, .team-sm .image img, .post-sm, .job-list .block, .privacy .block, .user-login .block .image img, .coming-soon .block .count-down .syotimer-cell {
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -243,6 +278,13 @@ img.download {
 
 a.nav-link.scrollTo:hover {
   border-bottom: 3px solid #ff698d;
+}
+
+ul.nav-link li.active a {
+    color: #FFF;
+    background-color: #1B81DD;
+    padding: 25px 18px;
+    border-bottom: 3px solid #ff698d;
 }
 
 /* img.image-fluid {
